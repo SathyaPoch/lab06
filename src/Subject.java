@@ -1,3 +1,9 @@
+/**
+ * / JavaDoc: Represents Course in Year 2 IP 
+ * Example: {@code Subject sb = new Subject();}
+*@author Sathya 
+*@author Chheng Kimter
+*/
 class Subject{
     private String  Name;
     private int TotalCredits=1;
