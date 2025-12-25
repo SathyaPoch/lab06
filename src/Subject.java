@@ -1,7 +1,7 @@
 class Subject{
-    String  Name;
-    int TotalCredits=1;
-    int TotalHours =50;
+    private String  Name;
+    private int TotalCredits=1;
+    private int TotalHours =50;
     public String toString(){
         return String.format("%s(%d credits, %d hours)", Name, TotalCredits, TotalHours);
     }
